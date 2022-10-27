@@ -5,7 +5,7 @@ $(function() {
     // loader
     $.fakeLoader({
         spinner: "spinner2",
-        bgColor: "#73305b"
+        bgColor: "#47babf"
     });
 
     // smooth scroll
