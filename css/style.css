@@ -26,7 +26,7 @@ Table of Content:
 
 /* general */
 body {
-    background: #47babf;
+    background: #ffcc01;
     color: #8a8a8a;
     font-size: 16px;
     font-weight: 400;
@@ -90,7 +90,8 @@ p {
 }
 
 .bg-grey {
-    background: #f2a413;
+    
+    background: #be639e;
 }
 
 *:focus {
@@ -118,8 +119,9 @@ p {
     transition: .5s ease-out;
 }*/
 .button {
-    background: transparent;
-    border: 2px solid #ffb005;
+    background: #79bfbf;
+    box-shadow: 4px 8px;
+    border:  2px solid #f2a413;
     padding: 12px 30px;
     font-weight: 500;
     font-size: 15px;
@@ -131,15 +133,17 @@ p {
 }
 
 .button:hover {
-    border-color: #ffb005;
+    box-shadow: none;
+    border-color: #f2a413;
     color: #fff;
-    background: #ffb005;
+    background: #f2a413;
     transition: .5s ease-out;
 }
 
 .button2 {
-    background: transparent;
-    border: 2px solid #ffb005;
+    background: #79bfbf;
+    box-shadow: 4px 8px;
+    border: 2px solid #f2a413;
     padding: 12px 30px;
     font-weight: 500;
     font-size: 15px;
@@ -151,9 +155,10 @@ p {
 }
 
 .button2:hover {
-    border-color: #ffb005;
+    box-shadow: none;
+    border-color: #f2a413;
     color: #fff;
-    background: #ffb005;
+    background: #f2a413;
     transition: .5s ease-out;
 }
 
@@ -172,7 +177,7 @@ p {
 }
 
 .navbar .navbar-brand img {
-    width: 175px;
+    width: 305px;
 }
 
 .navbar .navbar-brand-home {
@@ -201,7 +206,7 @@ p {
 }
 
 .navbar-fixed {
-    background: #fff;
+    background: #f2a413;
     transition: .5s ease-out;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0);
 }
@@ -215,7 +220,7 @@ p {
 }
 
 .navbar-fixed .navbar-nav li a {
-    color: #333;
+    color: #fff;
 }
 
 .navbar-fixed .navbar-toggler i {
@@ -273,13 +278,30 @@ p {
 .about .content:hover h5 {
     color: #fff;
 }
+/* ************ add to about **************** **/
+/**.flex-container {
+    display: flex;
+    background-color: transparent;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 1px;
+    padding: 10 0px 0px;
+    
+    font-size: 12px;**/
+
+.uniforms {
+    
+    margin-left: 20px;
+}
 
 /* home intro */
 .home-intro {
     background: url(../images/bg-intro.png), #47babf;
     background-repeat: no-repeat;
-    padding: 130px 0 150px !important;
-    background-size: 58%;
+    padding: 255px 0 150px !important;
+    background-size: auto;                /*58%;*/
     background-position: top right;
 }
 
@@ -495,7 +517,7 @@ p {
 .pricing .button:hover {
     background: #fff;
 }
-
+/****************************** Nuevo Promotions */
 /*portfolio*/
 .portfolio .row .col-md-4 {
     padding: 15px;
