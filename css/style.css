@@ -26,7 +26,7 @@ Table of Content:
 
 /* general */
 body {
-    background: #ffcc01;
+    background: #f2a413 (50 50 50 50);
     color: #8a8a8a;
     font-size: 16px;
     font-weight: 400;
@@ -91,7 +91,7 @@ p {
 
 .bg-grey {
     
-    background: #be639e;
+    background: #f2a413;
 }
 
 *:focus {
@@ -292,9 +292,11 @@ p {
     font-size: 12px;**/
 
 .uniforms {
-    
+
+      
     margin-left: 20px;
 }
+
 
 /* home intro */
 .home-intro {
@@ -727,7 +729,7 @@ form textarea:focus {
 
 /* footer bottom */
 .footer-bottom {
-    background: #302c42;
+    background: #f2a413;
     text-align: center;
     color: #eee;
     padding: 35px 0 35px;
@@ -736,7 +738,7 @@ form textarea:focus {
 
 /* footer */
 footer {
-    background: #302c42;
+    background: #588a8b;
     padding: 90px 0 80px;
 }
 
@@ -748,7 +750,7 @@ footer .brand {
 }
 
 footer .brand img {
-    width: 65px;
+    width: 250px;
 }
 
 footer h5 {
