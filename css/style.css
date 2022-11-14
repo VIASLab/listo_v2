@@ -26,7 +26,7 @@ Table of Content:
 
 /* general */
 body {
-    background: #f2a413 (50 50 50 50);
+    background: #be639e;
     color: #8a8a8a;
     font-size: 16px;
     font-weight: 400;
@@ -729,7 +729,7 @@ form textarea:focus {
 
 /* footer bottom */
 .footer-bottom {
-    background: #f2a413;
+    background: #be639e;
     text-align: center;
     color: #eee;
     padding: 35px 0 35px;
